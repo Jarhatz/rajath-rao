@@ -11,13 +11,13 @@ const options: ISourceOptions = {
     events: {
       onClick: {
         enable: true,
-        mode: "push",
+        mode: "repulse", // push, remove, bubble, repulse, grab, connect
       },
       onHover: {
         enable: true,
         mode: "bubble", // bubble, repulse
         parallax: {
-          enable: true,
+          enable: false,
           force: 60,
           smooth: 10,
         },
@@ -52,7 +52,7 @@ const options: ISourceOptions = {
       density: {
         enable: true,
       },
-      value: 150,
+      value: 300,
     },
     color: {
       value: "#ffffff",
@@ -71,11 +71,11 @@ const options: ISourceOptions = {
         default: "bounce",
       },
       random: true,
-      speed: 4,
+      speed: 3,
       straight: false,
     },
     opacity: {
-      value: 0.5,
+      value: 0.25,
     },
     shape: {
       type: "circle",

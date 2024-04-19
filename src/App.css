@@ -1,42 +1,89 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app-wrapper {
+    width: 100%;
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.my-name {
+    width: flex;
+    background: linear-gradient(to right, #0061ff, #60efff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 1rem;
 }
 
 .card {
-  padding: 2em;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+.text1 {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1rem;
 }
+
+.emphasize {
+    font-weight: 700;
+    color: #0061ff /* #127DFF; #30A8FF */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: darkslateblue; */
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.contact-comp {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    border-radius: 100%;
+    padding: 0.25rem;
+}
+.contact-comp:hover {
+
+}
+/* @media only screen and (max-width: 500px) {
+    .my-name {
+        background: linear-gradient(to right, #0061ff, #60efff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+        font-size: 3rem;
+        font-weight: 900;
+        font-style: normal;
+        margin-bottom: 2rem;
+    }
+} */
+
+/* @media only screen and (min-width: 1080px) {
+    .my-name {
+        background: linear-gradient(to right, #0061ff, #60efff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+        font-size: 5.5rem;
+        font-weight: 900;
+        font-style: normal;
+        margin-bottom: 2rem;
+    }
+} */
