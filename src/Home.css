@@ -1,10 +1,109 @@
 .home-comp {
     width: 100%;
-    height:100vh;
     position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    gap: 1.5rem;
+    margin: 1rem 0rem 2rem 0rem;
+    /* border: 1px solid #0061ff; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-name {
+    width: flex;
+    background: linear-gradient(to right, #0061ff, #34aeff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 3.25rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.contact-comp {
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: transform 0.3s ease-in-out;
+}
+.contact-comp:hover {
+    transform: scale(1.1);
+}
+
+.home-card {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.25); */
+}
+
+.home-text {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quote-text1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-color: #000;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+.quote-text2 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.emphasize {
+    font-weight: 700;
+    background: linear-gradient(to right, #0061ff, #34aeff); /* #117aff */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* color:#0061ff; #127DFF; #30A8FF; */
+}
+
+.copy-button {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 0.05rem;
+    cursor: pointer;
 }

@@ -1,7 +1,7 @@
 import "../index.css";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { type Container, type ISourceOptions } from "@tsparticles/engine";
+import { type Container } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 import options from "./ParticlesConfig";
 import "./ParticlesComponent.css";

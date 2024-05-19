@@ -3,18 +3,18 @@ import type { ISourceOptions } from "@tsparticles/engine";
 const options: ISourceOptions = {
   background: {
     color: {
-      value: "#000",
+      value: "#fff",
     },
   },
   fpsLimit: 120,
   interactivity: {
     events: {
       onClick: {
-        enable: true,
+        enable: false,
         mode: "repulse", // push, remove, bubble, repulse, grab, connect
       },
       onHover: {
-        enable: true,
+        enable: false,
         mode: "bubble", // bubble, repulse
         parallax: {
           enable: false,
@@ -55,10 +55,10 @@ const options: ISourceOptions = {
       value: 300,
     },
     color: {
-      value: "#ffffff",
+      value: "#000",
     },
     links: {
-      color: "#ffffff",
+      color: "#000",
       distance: 150,
       enable: true,
       opacity: 0.5,
