@@ -23,8 +23,10 @@ function Home() {
             <span>Rajath Rao</span>
           </div>
           <p className="profile-text">
-            I am a Computer Scientist + Data Scientist working on model
-            optimization for faster training and inferencing at Intel.
+            I am a Computer Scientist + Data Scientist currently working at{" "}
+            <span className="emphasize2">Intel</span> on model optimization for
+            faster training and inferencing on hardware accelartors in HPC
+            infrastructure.
           </p>
           <div className="contacts">
             <a href="mailto:rajathrao1001@gmail.com">
@@ -65,24 +67,26 @@ function Home() {
         </p>
         <p className="home-text">
           I love researching and developing deep learning frameworks in the
-          realm of <span className="emphasize">Brain Computer Interfaces</span>,
-          <span className="emphasize"> Computer Vision</span>, and{" "}
-          <span className="emphasize">Natural Language Processing</span>. My
+          realm of <span className="emphasize1">Brain Computer Interfaces</span>
+          ,<span className="emphasize1"> Computer Vision</span>, and{" "}
+          <span className="emphasize1">Natural Language Processing</span>. My
           passion for Computer Science and AI/ML 🤖 stems from my personal
           quality of being a lifelong learner. The inner-child in me wants to
           make the sci-fi movies 🍿 I watched growing up a reality...
         </p>
         <p className="home-text">
-          I am constantly trying new ideas💡and hunting for new problems to
-          solve. Feel free to contact me at
-          <span className="emphasize">
+          I am constantly trying out new ideas💡and hunting more problems to
+          solve. When I am not coding or reading, some of my other interests
+          include playing basketball🏀, working out💪, and making music🎶. Don't
+          be shy to contact me at
+          <span className="emphasize1">
             {" "}
             rajath.rao[AT]stonybrook[DOT]edu
           </span>{" "}
           <button className="copy-button" onClick={copyEmail}>
             {isEmailCopied ? <FaCheck /> : <MdCopyAll />}
           </button>{" "}
-          if you are looking to collaborate.
+          if you are looking to collaborate or ask any questions.
         </p>
       </div>
     </div>
