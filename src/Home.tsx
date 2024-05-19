@@ -17,35 +17,42 @@ function Home() {
 
   return (
     <div className="home-comp">
-      <div className="title">
-        <div className="my-name">
-          <span>Rajath Rao</span>
+      <div className="profile">
+        <div className="title">
+          <div className="my-name">
+            <span>Rajath Rao</span>
+          </div>
+          <p className="profile-text">
+            I am a Computer Scientist + Data Scientist working on model
+            optimization for faster training and inferencing at Intel.
+          </p>
+          <div className="contacts">
+            <a href="mailto:rajathrao1001@gmail.com">
+              <div className="contact-comp">
+                <MdEmail style={{ fontSize: "2rem" }} />
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rajath-rao/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="contact-comp">
+                <FaLinkedin style={{ fontSize: "2rem" }} />
+              </div>
+            </a>
+            <a
+              href="https://github.com/Jarhatz?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="contact-comp">
+                <FaGithub style={{ fontSize: "2rem" }} />
+              </div>
+            </a>
+          </div>
         </div>
-        <div className="contacts">
-          <a href="mailto:rajathrao1001@gmail.com">
-            <div className="contact-comp">
-              <MdEmail style={{ fontSize: "2rem" }} />
-            </div>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rajath-rao/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="contact-comp">
-              <FaLinkedin style={{ fontSize: "2rem" }} />
-            </div>
-          </a>
-          <a
-            href="https://github.com/Jarhatz?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="contact-comp">
-              <FaGithub style={{ fontSize: "2rem" }} />
-            </div>
-          </a>
-        </div>
+        <img className="profile-pic" src={"src/assets/grad_photo.jpg"} />
       </div>
 
       <div className="home-card">
@@ -53,13 +60,12 @@ function Home() {
           I am an inquisitive mind who is a strong believer of being a lifelong
           learner.
         </p>
-        <p className="quote-text1">
-          “The only true wisdom is in knowing you know nothing.”
-          <span className="quote-text2"> - Socrates</span>
+        <p className="quote-text">
+          “The only true wisdom is in knowing you know nothing.” - Socrates
         </p>
         <p className="home-text">
-          Currently, I am a deep learning frameworks researcher in the realm of{" "}
-          <span className="emphasize">Brain Computer Interfaces</span>,
+          I love researching and developing deep learning frameworks in the
+          realm of <span className="emphasize">Brain Computer Interfaces</span>,
           <span className="emphasize"> Computer Vision</span>, and{" "}
           <span className="emphasize">Natural Language Processing</span>. My
           passion for Computer Science and AI/ML 🤖 stems from my personal
@@ -74,7 +80,7 @@ function Home() {
             rajath.rao[AT]stonybrook[DOT]edu
           </span>{" "}
           <button className="copy-button" onClick={copyEmail}>
-            {isEmailCopied ? <FaCheck color="green" /> : <MdCopyAll />}
+            {isEmailCopied ? <FaCheck /> : <MdCopyAll />}
           </button>{" "}
           if you are looking to collaborate.
         </p>

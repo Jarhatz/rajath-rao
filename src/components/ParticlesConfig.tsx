@@ -3,7 +3,7 @@ import type { ISourceOptions } from "@tsparticles/engine";
 const options: ISourceOptions = {
   background: {
     color: {
-      value: "#fff",
+      value: "#121212",
     },
   },
   fpsLimit: 120,
@@ -52,13 +52,13 @@ const options: ISourceOptions = {
       density: {
         enable: true,
       },
-      value: 300,
+      value: 200,
     },
     color: {
-      value: "#000",
+      value: "#ffffff",
     },
     links: {
-      color: "#000",
+      color: "#ffffff",
       distance: 150,
       enable: true,
       opacity: 0.5,

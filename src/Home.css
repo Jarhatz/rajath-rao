@@ -4,27 +4,38 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
+    justify-content: center;
+    background-color: #12121280;
+    backdrop-filter: blur(1px);
+    /* background-color: darkslateblue; */
+}
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6rem 2rem 2rem 2rem;
+    gap: 10%;
+    /* background-color: red; */
+}
+
+.profile-pic {
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
 }
 
 .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(5px);
-    border-radius: 1rem;
-    padding: 1.5rem 3rem 1.5rem 3rem;
-    gap: 1.5rem;
-    margin: 1rem 0rem 2rem 0rem;
-    /* border: 1px solid #0061ff; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* align-items: center; */
+    /* background-color: purple; */
 }
 
 .my-name {
-    width: flex;
+    width: fit-content;
     background: linear-gradient(to right, #0061ff, #34aeff);
     -webkit-background-clip: text;
     background-clip: text;
@@ -33,6 +44,11 @@
     font-size: 3.25rem;
     font-weight: 900;
     font-style: normal;
+}
+
+.profile-text {
+    color: white;
+    margin: 1.5rem 0rem;
 }
 
 .contacts {
@@ -44,51 +60,38 @@
 .contact-comp {
     justify-content: center;
     align-items: center;
-    color: #000;
+    color: white;
     transition: transform 0.3s ease-in-out;
 }
 .contact-comp:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .home-card {
-    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    backdrop-filter: blur(10px);
-    border-radius: 1rem;
-    padding: 0rem 1rem;
-    margin: 1rem 0rem 1rem 0rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* background-color: rgba(255, 255, 255, 0.25); */
+    margin: 1rem 2rem;
+    /* background-color: green; */
 }
 
 .home-text {
     font-family: 'Inter', sans-serif;
-    color: black;
+    color: white;
     font-size: 1rem;
     font-weight: 400;
     font-style: normal;
 }
 
-.quote-text1 {
+.quote-text {
+    border-top: 1px solid #ffffff80;
+    border-bottom: 1px solid #ffffff80;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    color: black;
+    color: white;
     font-size: 1.125rem;
     font-weight: 500;
-    border-color: #000;
-    border-top-width: 10px;
-    border-bottom-width: 10px;
-}
-
-.quote-text2 {
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
+    padding: 1.5rem 0rem;
 }
 
 .emphasize {
@@ -104,6 +107,9 @@
     display: inline;
     justify-content: center;
     align-items: center;
-    padding: 0.05rem;
+    padding: 0.1rem;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: #404040;
     cursor: pointer;
 }
