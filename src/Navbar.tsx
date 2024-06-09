@@ -1,42 +1,40 @@
 import "./App.css";
 import "./Navbar.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-interface NavbarProps {
-  scrollToSection: (id: string) => void;
-}
-
-function Navbar({ scrollToSection }: NavbarProps) {
+function Navbar() {
   return (
     <div className="navbar-comp">
-      {/* <p
-        className="navbar-tab"
-        onClick={() =>
-          window.scrollTo({
-            behavior: "smooth",
-            top: 0,
-          })
-        }
+      <Link
+        activeClass="active"
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
       >
-        Home
-      </p>
-      <p className="navbar-tab">Experience</p>
-      <p className="navbar-tab">Projects</p> */}
-
-      <a href="#home">
-        <p className="navbar-tab" onClick={() => scrollToSection("home")}>
-          Home
-        </p>
-      </a>
-      <a href="#experience">
-        <p className="navbar-tab" onClick={() => scrollToSection("experience")}>
-          Experience
-        </p>
-      </a>
-      <a href="#projects">
-        <p className="navbar-tab" onClick={() => scrollToSection("projects")}>
-          Projects
-        </p>
-      </a>
+        <p className="navbar-tab">Home</p>
+      </Link>
+      <Link
+        activeClass="active"
+        to="experience"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <p className="navbar-tab">Experience</p>
+      </Link>
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <p className="navbar-tab">Projects</p>
+      </Link>
     </div>
   );
 }
