@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    /* background-color: #12121280; */
-    /* backdrop-filter: blur(8px); */
+    background-color: #12121280;
+    backdrop-filter: blur(8px);
     /* box-shadow: 0 4px 8px #0061ffa0; */
     /* box-shadow: 0 4px 8px #ffffff80; */
 }
@@ -21,13 +21,20 @@
     background-clip: text;
     color: transparent;
     display: inline-block;
+    border: 2px solid #0061ffa0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 1rem;
     font-weight: 800;
     font-size: 1.125rem;
     font-style: normal;
     position: relative;
     cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
 }
-.navbar-tab::after {
+.navbar-tab:hover {
+    box-shadow: 0 4px 8px #0061ffa0;
+}
+/* .navbar-tab::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -36,9 +43,9 @@
     width: 0;
     background: linear-gradient(to right, #0061ff, #34aeff);
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
-}
+} */
 
-.navbar-tab:hover::after {
+/* .navbar-tab:hover::after {
     width: 100%;
     left: 0;
-}
+} */

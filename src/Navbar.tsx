@@ -1,22 +1,42 @@
 import "./App.css";
 import "./Navbar.css";
 
-function Navbar() {
+interface NavbarProps {
+  scrollToSection: (id: string) => void;
+}
+
+function Navbar({ scrollToSection }: NavbarProps) {
   return (
     <div className="navbar-comp">
-      <div
-        onClick={() => {
+      {/* <p
+        className="navbar-tab"
+        onClick={() =>
           window.scrollTo({
+            behavior: "smooth",
             top: 0,
-            behavior: "smooth", // This adds a smooth scrolling effect
-          });
-        }}
+          })
+        }
       >
-        <p className="navbar-tab">Home</p>
-      </div>
-      {/* <p className="navbar-tab">About</p> */}
+        Home
+      </p>
       <p className="navbar-tab">Experience</p>
-      <p className="navbar-tab">Projects</p>
+      <p className="navbar-tab">Projects</p> */}
+
+      <a href="#home">
+        <p className="navbar-tab" onClick={() => scrollToSection("home")}>
+          Home
+        </p>
+      </a>
+      <a href="#experience">
+        <p className="navbar-tab" onClick={() => scrollToSection("experience")}>
+          Experience
+        </p>
+      </a>
+      <a href="#projects">
+        <p className="navbar-tab" onClick={() => scrollToSection("projects")}>
+          Projects
+        </p>
+      </a>
     </div>
   );
 }

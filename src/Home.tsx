@@ -16,17 +16,19 @@ function Home() {
   };
 
   return (
-    <div className="home-comp">
+    <div id="home" className="home-wrapper">
       <div className="profile">
         <div className="title">
           <div className="my-name">
             <span>Rajath Rao</span>
           </div>
           <p className="profile-text">
-            I am a Computer Scientist + Data Scientist currently working at{" "}
-            <span className="emphasize2">Intel</span> on model optimization for
-            faster training and inferencing on hardware accelartors in HPC
-            infrastructure.
+            I am a{" "}
+            <span className="emphasize emphasize2">
+              Computer Scientist + Data Scientist
+            </span>{" "}
+            currently working at Intel on profiling and optimizing models for
+            faster training/inferencing on Intel GPUs and Hardware Accelerators.
           </p>
           <div className="contacts">
             <a href="mailto:rajathrao1001@gmail.com">
@@ -63,23 +65,29 @@ function Home() {
           learner.
         </p>
         <p className="quote-text">
-          “The only true wisdom is in knowing you know nothing.” - Socrates
+          “The only true wisdom is in knowing you know nothing.”{" "}
+          <span className="emphasize emphasize1"> - Socrates</span>
         </p>
         <p className="home-text">
           I love researching and developing deep learning frameworks in the
-          realm of <span className="emphasize1">Brain Computer Interfaces</span>
-          ,<span className="emphasize1"> Computer Vision</span>, and{" "}
-          <span className="emphasize1">Natural Language Processing</span>. My
-          passion for Computer Science and AI/ML 🤖 stems from my personal
+          realm of{" "}
+          <span className="emphasize emphasize1">
+            Brain Computer Interfaces
+          </span>
+          ,<span className="emphasize emphasize1"> Computer Vision</span>, and{" "}
+          <span className="emphasize emphasize1">
+            Natural Language Processing
+          </span>
+          . My passion for Computer Science and AI/ML 🤖 stems from my personal
           quality of being a lifelong learner. The inner-child in me wants to
           make the sci-fi movies 🍿 I watched growing up a reality...
         </p>
         <p className="home-text">
           I am constantly trying out new ideas💡and hunting more problems to
           solve. When I am not coding or reading, some of my other interests
-          include playing basketball🏀, working out💪, and making music🎶. Don't
-          be shy to contact me at
-          <span className="emphasize1">
+          include playing basketball🏀, working out💪, making music🎹, and
+          casual gaming🎮. Please do not hesitate to contact me at
+          <span className="emphasize emphasize1">
             {" "}
             rajath.rao[AT]stonybrook[DOT]edu
           </span>{" "}
