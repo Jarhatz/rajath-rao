@@ -2,8 +2,11 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div className="projects-comp">
-      <p>Projects</p>
+    <div id="projects" className="projects-wrapper">
+      <div className="projects-title">
+        <span>Projects</span>
+      </div>
+      <p>Text</p>
     </div>
   );
 }

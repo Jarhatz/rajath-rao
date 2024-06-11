@@ -114,6 +114,11 @@
     margin: 1rem 0;
 }
 
+.exp-text3 {
+    font-style: normal;
+    margin: 0.75rem 0 2rem 0;
+}
+
 .divider {
     grid-area: divider;
     border-bottom: 1px solid #ffffff80;
