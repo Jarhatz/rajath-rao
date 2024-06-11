@@ -83,10 +83,10 @@ function Home() {
           make the sci-fi movies 🍿 I watched growing up a reality...
         </p>
         <p className="home-text">
-          I am constantly trying out new ideas💡and hunting more problems to
-          solve. When I am not coding or reading, some of my other interests
-          include playing basketball🏀, working out💪, making music🎹, and
-          casual gaming🎮. Please do not hesitate to contact me at
+          I am constantly trying out new ideas💡and hunting problems to solve.
+          When I am not coding or reading, some of my other interests include
+          playing basketball🏀, working out💪, making music🎹, and casual
+          gaming🎮. Please do not hesitate to contact me at
           <span className="emphasize emphasize1">
             {" "}
             rajath.rao[AT]stonybrook[DOT]edu
