@@ -59,14 +59,14 @@ function Home() {
           <div
             className="resume-link"
             onClick={() =>
-              window.open("src/assets/Resume - Rajath Rao 2024.pdf", "_blank")
+              window.open("/files/Resume - Rajath Rao 2024.pdf", "_blank")
             }
           >
             <p className="resume-text">RESUME</p>
             <MdOutlineOpenInNew color="white" />
           </div>
         </div>
-        <img className="profile-pic" src={"src/assets/grad_photo.jpg"} />
+        <img className="profile-pic" src={"/images/grad_photo.jpg"} />
       </div>
       <div className="home-card">
         <p className="quote-text">

@@ -1,6 +1,6 @@
 import "./App.css";
 import "./Navbar.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (

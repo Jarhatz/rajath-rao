@@ -14,7 +14,7 @@ function Projects() {
       </p>
       <div className="projects-grid">
         <div className="project-card">
-          <img className="project-pic" src={"src/assets/BrainDiffusion.gif"} />
+          <img className="project-pic" src={"/images/BrainDiffusion.gif"} />
           <div className="project-title">
             <p className="project-title-text">Generate Images with Your Mind</p>
           </div>
@@ -29,7 +29,7 @@ function Projects() {
             className="project-info"
             onClick={() =>
               window.open(
-                "src/assets/BrainDiffusion___Research_Study.pdf",
+                "/files/BrainDiffusion___Research_Study.pdf",
                 "_blank"
               )
             }
@@ -49,10 +49,7 @@ function Projects() {
           </a>
         </div>
         <div className="project-card">
-          <img
-            className="project-pic"
-            src={"src/assets/thought2text-cover.jpg"}
-          />
+          <img className="project-pic" src={"/images/thought2text-cover.jpg"} />
           <div className="project-title">
             <p className="project-title-text">Thought to Text</p>
           </div>
@@ -66,7 +63,7 @@ function Projects() {
             className="project-info"
             onClick={() =>
               window.open(
-                "src/assets/Thought2Text___Research_Project_Report.pdf",
+                "/files/Thought2Text___Research_Project_Report.pdf",
                 "_blank"
               )
             }
@@ -86,10 +83,7 @@ function Projects() {
           </a>
         </div>
         <div className="project-card">
-          <img
-            className="project-pic"
-            src={"src/assets/rtls-project-cover.png"}
-          />
+          <img className="project-pic" src={"/images/rtls-project-cover.png"} />
           <div className="project-title">
             <p className="project-title-text">
               Real-Time Location Services via BLE
@@ -123,7 +117,7 @@ function Projects() {
           </a>
         </div>
         <div className="project-card">
-          <img className="project-pic" src={"src/assets/rad-cart-cover.jpg"} />
+          <img className="project-pic" src={"/images/rad-cart-cover.jpg"} />
           <div className="project-title">
             <p className="project-title-text">Autonomous Shopping Cart</p>
           </div>
