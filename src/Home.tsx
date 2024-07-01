@@ -1,6 +1,7 @@
 import "./Home.css";
 import { useState } from "react";
-import { MdEmail } from "react-icons/md";
+import { Typewriter } from "react-simple-typewriter";
+import { MdOutlineOpenInNew, MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub, FaCheck } from "react-icons/fa";
 import { MdCopyAll } from "react-icons/md";
 
@@ -24,7 +25,7 @@ function Home() {
           </div>
           <p className="profile-text">
             I am a{" "}
-            <span className="emphasize emphasize2">
+            <span className="emphasize emphasize1">
               Computer Scientist + Data Scientist
             </span>{" "}
             currently working at Intel on profiling and optimizing models for
@@ -55,30 +56,42 @@ function Home() {
               </div>
             </a>
           </div>
+          <div
+            className="resume-link"
+            onClick={() =>
+              window.open("src/assets/Resume - Rajath Rao 2024.pdf", "_blank")
+            }
+          >
+            <p className="resume-text">RESUME</p>
+            <MdOutlineOpenInNew color="white" />
+          </div>
         </div>
         <img className="profile-pic" src={"src/assets/grad_photo.jpg"} />
       </div>
-
       <div className="home-card">
-        <p className="home-text">
-          I am an inquisitive mind who is a strong believer of being a lifelong
-          learner.
-        </p>
         <p className="quote-text">
-          “The only true wisdom is in knowing you know nothing.”{" "}
-          <span className="emphasize emphasize1"> - Socrates</span>
+          {/* “The only true wisdom is in knowing you know nothing.”{" "}
+          <span className="emphasize"> - Socrates</span> */}
+          <Typewriter
+            words={[
+              '"The only true wisdom is in knowing you know nothing." - Socrates',
+              '"The measure of intelligence is the ability to change." - Einstein',
+              '“The sign of intelligence is that you are constantly wondering." - Sadhguru',
+            ]}
+            loop={0}
+            cursor
+            cursorStyle="_"
+            typeSpeed={50}
+            deleteSpeed={25}
+            delaySpeed={4000}
+          />
         </p>
         <p className="home-text">
           I love researching and developing deep learning frameworks in the
-          realm of{" "}
-          <span className="emphasize emphasize1">
-            Brain Computer Interfaces
-          </span>
-          ,<span className="emphasize emphasize1"> Computer Vision</span>, and{" "}
-          <span className="emphasize emphasize1">
-            Natural Language Processing
-          </span>
-          . My passion for Computer Science and AI/ML 🤖 stems from my personal
+          realm of <span className="emphasize">Brain Computer Interfaces</span>,
+          <span className="emphasize"> Computer Vision</span>, and{" "}
+          <span className="emphasize">Natural Language Processing</span>. My
+          passion for Computer Science and AI/ML 🤖 stems from my personal
           quality of being a lifelong learner. The inner-child in me wants to
           make the sci-fi movies 🍿 I watched growing up a reality...
         </p>
@@ -87,7 +100,7 @@ function Home() {
           When I am not coding or reading, some of my other interests include
           playing basketball🏀, working out💪, making music🎹, and casual
           gaming🎮. Please do not hesitate to contact me at
-          <span className="emphasize emphasize1">
+          <span className="emphasize">
             {" "}
             rajath.rao[AT]stonybrook[DOT]edu
           </span>{" "}

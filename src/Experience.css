@@ -22,7 +22,6 @@
 .exp-container {
     display: grid;
     grid-template-columns: 25% 75%;
-    /* grid-template-rows: repeat(2, 1fr); */
     grid-template-rows: auto auto 1px auto auto;
     grid-template-areas: 
         "header1 text1"
@@ -106,10 +105,10 @@
 }
 
 .exp-text2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Consolas';
     font-style: italic;
     color: white;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 1rem 0;
 }

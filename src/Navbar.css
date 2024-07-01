@@ -11,8 +11,6 @@
     gap: 5rem;
     background-color: #12121280;
     backdrop-filter: blur(8px);
-    /* box-shadow: 0 4px 8px #0061ffa0; */
-    /* box-shadow: 0 4px 8px #ffffff80; */
 }
 
 .navbar-tab {
