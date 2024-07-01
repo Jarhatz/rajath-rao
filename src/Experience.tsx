@@ -55,7 +55,7 @@ function Experience() {
           </div>
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">Research Assistant</span>
+              <span className="emphasize emphasize3">Graduate Researcher</span>
             </p>
             <p className="exp-text1 exp-text3">
               Stony Brook University HLAB ·

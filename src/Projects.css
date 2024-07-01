@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     margin: 2rem 0 1rem 0;
-    background-color: darkslateblue;
 }
 
 .projects-title {
@@ -18,4 +17,37 @@
     font-weight: 900;
     font-style: normal;
     padding: 1rem 0;
+}
+
+.projects-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    /* background-color: darkslateblue; */
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #ffffff80;
+    background-color: #12121280;
+}
+
+.project-pic {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.braindiff-gif {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
