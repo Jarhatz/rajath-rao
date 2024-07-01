@@ -66,7 +66,7 @@ function Home() {
             <MdOutlineOpenInNew color="white" />
           </div>
         </div>
-        <img className="profile-pic" src={"/images/grad_photo.jpg"} />
+        <img className="profile-pic" src={"/rajathrao/images/grad_photo.jpg"} />
       </div>
       <div className="home-card">
         <p className="quote-text">
