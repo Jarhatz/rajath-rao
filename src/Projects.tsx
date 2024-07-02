@@ -16,7 +16,7 @@ function Projects() {
         <div className="project-card">
           <img
             className="project-pic"
-            src={"/rajathrao/images/BrainDiffusion.gif"}
+            src={"/rajath-rao/images/BrainDiffusion.gif"}
           />
           <div className="project-title">
             <p className="project-title-text">Generate Images with Your Mind</p>
@@ -32,7 +32,7 @@ function Projects() {
             className="project-info"
             onClick={() =>
               window.open(
-                "/rajathrao/files/BrainDiffusion___Research_Study.pdf",
+                "/rajath-rao/files/BrainDiffusion___Research_Study.pdf",
                 "_blank"
               )
             }
@@ -54,7 +54,7 @@ function Projects() {
         <div className="project-card">
           <img
             className="project-pic"
-            src={"/rajathrao/images/thought2text-cover.jpg"}
+            src={"/rajath-rao/images/thought2text-cover.jpg"}
           />
           <div className="project-title">
             <p className="project-title-text">Thought to Text</p>
@@ -69,7 +69,7 @@ function Projects() {
             className="project-info"
             onClick={() =>
               window.open(
-                "/rajathrao/files/Thought2Text___Research_Project_Report.pdf",
+                "/rajath-rao/files/Thought2Text___Research_Project_Report.pdf",
                 "_blank"
               )
             }
@@ -91,7 +91,7 @@ function Projects() {
         <div className="project-card">
           <img
             className="project-pic"
-            src={"/rajathrao/images/rtls-project-cover.png"}
+            src={"/rajath-rao/images/rtls-project-cover.png"}
           />
           <div className="project-title">
             <p className="project-title-text">
@@ -128,7 +128,7 @@ function Projects() {
         <div className="project-card">
           <img
             className="project-pic"
-            src={"/rajathrao/images/rad-cart-cover.jpg"}
+            src={"/rajath-rao/images/rad-cart-cover.jpg"}
           />
           <div className="project-title">
             <p className="project-title-text">Autonomous Shopping Cart</p>

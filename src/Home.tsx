@@ -32,7 +32,7 @@ function Home() {
             faster training/inferencing on Intel GPUs and Hardware Accelerators.
           </p>
           <div className="contacts">
-            <a href="mailto:rajathrao1001@gmail.com">
+            <a href="mailto:rajath-rao1001@gmail.com">
               <div className="contact-comp">
                 <MdEmail style={{ fontSize: "2rem" }} />
               </div>
@@ -59,14 +59,20 @@ function Home() {
           <div
             className="resume-link"
             onClick={() =>
-              window.open("/files/Resume - Rajath Rao 2024.pdf", "_blank")
+              window.open(
+                "/rajath-rao/files/Resume - Rajath Rao 2024.pdf",
+                "_blank"
+              )
             }
           >
             <p className="resume-text">RESUME</p>
             <MdOutlineOpenInNew color="white" />
           </div>
         </div>
-        <img className="profile-pic" src={"/rajathrao/images/grad_photo.jpg"} />
+        <img
+          className="profile-pic"
+          src={"/rajath-rao/images/grad_photo.jpg"}
+        />
       </div>
       <div className="home-card">
         <p className="quote-text">
