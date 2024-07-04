@@ -14,7 +14,7 @@ function Experience() {
         <div className="exp-content-comp">
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">M.S. in Data Science</span>{" "}
+              <span className="emphasize emphasize2">M.S. in Data Science</span>{" "}
               • December 2024
             </p>
             <p className="exp-text2">
@@ -28,7 +28,7 @@ function Experience() {
           </div>
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">
+              <span className="emphasize emphasize2">
                 B.S. in Computer Science & Engineering
               </span>{" "}
               • March 2023
@@ -45,7 +45,7 @@ function Experience() {
         <div className="exp-content-comp">
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">
+              <span className="emphasize emphasize2">
                 AI/DL Engineer Intern
               </span>
             </p>
@@ -55,7 +55,7 @@ function Experience() {
           </div>
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">Graduate Researcher</span>
+              <span className="emphasize emphasize2">Graduate Researcher</span>
             </p>
             <p className="exp-text1 exp-text3">
               Stony Brook University HLAB ·
@@ -64,7 +64,7 @@ function Experience() {
           </div>
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize3">
+              <span className="emphasize emphasize2">
                 HPC Software Engineer Co-Op Intern
               </span>
             </p>
