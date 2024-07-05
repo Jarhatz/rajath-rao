@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jarhatz.github.io/rajath-rao/",
+  "homepage": "https://jarhatz.github.io/rajath-rao",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
