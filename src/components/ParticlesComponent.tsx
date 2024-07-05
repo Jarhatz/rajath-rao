@@ -30,7 +30,6 @@ function ParticlesComponent() {
       />
     );
   } else {
-    console.log("Failed.");
     return <></>;
   }
 }
