@@ -30,7 +30,7 @@ function Home() {
           <p className="profile-text">
             I am a{" "}
             <span className="emphasize emphasize1">
-              Computer Scientist + Data Scientist
+              Computer + Data Scientist
             </span>{" "}
             currently working at Intel on profiling and optimizing models for
             faster training/inferencing on Intel GPUs and hardware accelerators.

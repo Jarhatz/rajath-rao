@@ -11,6 +11,7 @@ function Experience() {
         <div className="exp-header-container">
           <p className="exp-header">Education</p>
         </div>
+        <p className="exp-header-mobile">Education</p>
         <div className="exp-content-comp">
           <div className="exp-content">
             <p className="exp-text1">
@@ -42,6 +43,7 @@ function Experience() {
         <div className="exp-header-container">
           <p className="exp-header">Work</p>
         </div>
+        <p className="exp-header-mobile">Work</p>
         <div className="exp-content-comp">
           <div className="exp-content">
             <p className="exp-text1">
