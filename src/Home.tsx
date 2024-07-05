@@ -23,6 +23,10 @@ function Home() {
           <div className="my-name">
             <span>Rajath Rao</span>
           </div>
+          <img
+            className="mobile-profile-pic"
+            src={"/rajath-rao/images/grad_photo.jpg"}
+          />
           <p className="profile-text">
             I am a{" "}
             <span className="emphasize emphasize1">
