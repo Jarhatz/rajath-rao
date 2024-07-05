@@ -29,7 +29,7 @@ function Home() {
               Computer Scientist + Data Scientist
             </span>{" "}
             currently working at Intel on profiling and optimizing models for
-            faster training/inferencing on Intel GPUs and Hardware Accelerators.
+            faster training/inferencing on Intel GPUs and hardware accelerators.
           </p>
           <div className="contacts">
             <a href="mailto:rajath-rao1001@gmail.com">
