@@ -2,7 +2,7 @@ import "./Home.css";
 import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { MdOutlineOpenInNew, MdEmail } from "react-icons/md";
-import { FaLinkedin, FaGithub, FaCheck } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCheck, FaPhoneAlt } from "react-icons/fa";
 import { MdCopyAll } from "react-icons/md";
 
 function Home() {
@@ -39,6 +39,11 @@ function Home() {
             <a href="mailto:rajath-rao1001@gmail.com">
               <div className="contact-comp">
                 <MdEmail style={{ fontSize: "2rem" }} />
+              </div>
+            </a>
+            <a href="tel:4083004564">
+              <div className="contact-comp">
+                <FaPhoneAlt style={{ fontSize: "1.75rem" }} />
               </div>
             </a>
             <a
