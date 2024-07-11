@@ -43,7 +43,7 @@ function Home() {
             </a>
             <a href="tel:4083004564">
               <div className="contact-comp">
-                <FaPhoneAlt style={{ fontSize: "1.75rem" }} />
+                <FaPhoneAlt style={{ fontSize: "1.6rem" }} />
               </div>
             </a>
             <a
