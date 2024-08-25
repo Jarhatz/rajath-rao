@@ -69,7 +69,7 @@ function Home() {
             className="resume-link"
             onClick={() =>
               window.open(
-                "/rajath-rao/files/Resume - Rajath Rao 2024.pdf",
+                "/rajath-rao/files/Resume - Rajath Rao.pdf",
                 "_blank"
               )
             }
