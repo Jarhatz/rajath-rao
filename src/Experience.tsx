@@ -15,16 +15,13 @@ function Experience() {
         <div className="exp-content-comp">
           <div className="exp-content">
             <p className="exp-text1">
-              <span className="emphasize emphasize2">M.S. in Data Science</span>{" "}
+              <span className="emphasize emphasize2">
+                M.S. in Data Science (Thesis)
+              </span>{" "}
               • December 2024
             </p>
             <p className="exp-text2">
               Stony Brook University | Stony Brook, NY
-            </p>
-            <p className="exp-text1" style={{ marginBottom: "2em" }}>
-              Deep Learning research with Professor Andrew Schwartz in
-              multimodal language models. Thesis in Deep Learning for Brain
-              Computer Interfaces leveraging NLP/CV paradigms.
             </p>
           </div>
           <div className="exp-content">
@@ -48,26 +45,39 @@ function Experience() {
           <div className="exp-content">
             <p className="exp-text1">
               <span className="emphasize emphasize2">
-                AI/DL Engineer Intern
+                Graduate Student Researcher
               </span>
             </p>
             <p className="exp-text1 exp-text3">
-              Intel · <span className="exp-text2">May 2024 - Present</span>
-            </p>
-          </div>
-          <div className="exp-content">
-            <p className="exp-text1">
-              <span className="emphasize emphasize2">Graduate Researcher</span>
-            </p>
-            <p className="exp-text1 exp-text3">
-              Stony Brook University HLAB ·
-              <span className="exp-text2"> August 2023 - Present</span>
+              HLAB ·<span className="exp-text2"> August 2023 - Present</span>
+              <p className="exp-text1" style={{ marginTop: "1rem" }}>
+                Research thesis with Professor Andrew Schwartz in devising
+                multimodal foundation models for downstream tasks. Other works
+                include EEG encoder/decoder networks for Brain Computer
+                Interface applications.
+              </p>
             </p>
           </div>
           <div className="exp-content">
             <p className="exp-text1">
               <span className="emphasize emphasize2">
-                HPC Software Engineer Co-Op Intern
+                HPC AI/ML Engineer Intern
+              </span>
+            </p>
+            <p className="exp-text1 exp-text3">
+              Intel · <span className="exp-text2">May 2024 - August 2024</span>
+              <p className="exp-text1" style={{ marginTop: "1rem" }}>
+                Profiling and optimizing models for greater training/inferencing
+                performance on Intel GPUs and hardware accelerators. Developing
+                deep learning architectures and enabling HuggingFace
+                transformers library on Habana AI Gaudi cards.
+              </p>
+            </p>
+          </div>
+          <div className="exp-content">
+            <p className="exp-text1">
+              <span className="emphasize emphasize2">
+                HPC Software Engineer Co-Op
               </span>
             </p>
             <p className="exp-text1 exp-text3" style={{ marginBottom: "0" }}>

@@ -2,7 +2,12 @@ import "./Home.css";
 import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { MdOutlineOpenInNew, MdEmail } from "react-icons/md";
-import { FaLinkedin, FaGithub, FaCheck, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaCheck,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 import { MdCopyAll } from "react-icons/md";
 
 function Home() {
@@ -32,8 +37,8 @@ function Home() {
             <span className="emphasize emphasize1">
               Computer + Data Scientist
             </span>{" "}
-            currently working at Intel on profiling and optimizing models for
-            faster training/inferencing on Intel GPUs and hardware accelerators.
+            currently working as a graduate researcher at Stony Brook
+            University.
           </p>
           <div className="contacts">
             <a href="mailto:rajath-rao1001@gmail.com">
@@ -68,10 +73,7 @@ function Home() {
           <div
             className="resume-link"
             onClick={() =>
-              window.open(
-                "/rajath-rao/files/Resume - Rajath Rao.pdf",
-                "_blank"
-              )
+              window.open("/rajath-rao/files/Resume - Rajath Rao.pdf", "_blank")
             }
           >
             <p className="resume-text">RESUME</p>
@@ -85,8 +87,6 @@ function Home() {
       </div>
       <div className="home-card">
         <p className="quote-text">
-          {/* “The only true wisdom is in knowing you know nothing.”{" "}
-          <span className="emphasize"> - Socrates</span> */}
           <Typewriter
             words={[
               '"The only true wisdom is in knowing you know nothing." - Socrates',
@@ -103,17 +103,18 @@ function Home() {
         </p>
         <p className="home-text">
           I love researching and developing deep learning frameworks in the
-          realm of <span className="emphasize">Brain Computer Interfaces</span>,
-          <span className="emphasize"> Computer Vision</span>, and{" "}
-          <span className="emphasize">Natural Language Processing</span>. My
-          passion for Computer Science and AI/ML 🤖 stems from my personal
-          quality of being a lifelong learner. The inner-child in me wants to
-          make the sci-fi movies 🍿 I watched growing up a reality...
+          realm of{" "}
+          <span className="emphasize">Multimodal Foundation Models</span>,{" "}
+          <span className="emphasize">Brain Computer Interfaces</span>, and{" "}
+          <span className="emphasize">Reinforcement Learning</span>. My passion
+          for Computer Science and AI/ML 🤖 stems from my personal quality of
+          being a lifelong learner. The inner-child in me wants to make the
+          sci-fi movies 🍿 I watched growing up a reality...
         </p>
         <p className="home-text">
           I am constantly trying out new ideas💡and hunting problems to solve.
           When I am not coding or reading, some of my other interests include
-          playing basketball🏀, working out💪, making music🎹, and casual
+          playing basketball🏀, working out💪, making music🎹, and some casual
           gaming🎮. Please do not hesitate to contact me at
           <span className="emphasize">
             {" "}
