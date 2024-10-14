@@ -32,7 +32,7 @@ function Projects() {
             className="project-info"
             onClick={() =>
               window.open(
-                "/rajath-rao/files/BrainDiffusion___Research_Study.pdf",
+                "/rajath-rao/files/BrainDiffusion___Generate_Images_With_Your_Mind.pdf",
                 "_blank"
               )
             }
