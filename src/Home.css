@@ -54,6 +54,13 @@
     transform: scale(1.25);
 }
 
+.email-comp {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
 .resume-link {
     width: fit-content;
     display: inline-flex;

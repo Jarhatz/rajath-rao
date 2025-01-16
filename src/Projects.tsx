@@ -54,6 +54,41 @@ function Projects() {
         <div className="project-card">
           <img
             className="project-pic"
+            src={"/rajath-rao/images/portfolia.gif"}
+          />
+          <div className="project-title">
+            <p className="project-title-text">Portfolia</p>
+          </div>
+          <p className="project-text">
+            Portfolia is an AI-powered personal investment advisor and stock
+            forecasting assistant. It provides personalized financial advice,
+            accurate stock predictions using deep learning, and simplifies
+            complex financial concepts for users of all experience levels.
+          </p>
+          <a
+            href="https://devpost.com/software/portfolia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="project-info">
+              <p className="project-info-text">MORE INFO</p>
+              <HiOutlineDocumentText color="white" />
+            </div>
+          </a>
+          <a
+            href="https://github.com/Jarhatz/portfolia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="project-info">
+              <p className="project-info-text">SEE CODE</p>
+              <FaCode color="white" />
+            </div>
+          </a>
+        </div>
+        <div className="project-card">
+          <img
+            className="project-pic"
             src={"/rajath-rao/images/thought2text-cover.jpg"}
           />
           <div className="project-title">

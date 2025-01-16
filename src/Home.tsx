@@ -2,19 +2,14 @@ import "./Home.css";
 import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { MdOutlineOpenInNew, MdEmail } from "react-icons/md";
-import {
-  FaPhoneAlt,
-  FaCheck,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import { FaPhoneAlt, FaCheck, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdCopyAll } from "react-icons/md";
 
 function Home() {
   const [isEmailCopied, setIsEmailCopied] = useState(false);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("rajath.rao@stonybrook.edu");
+    navigator.clipboard.writeText("rajathrao1001@gmail.com");
     setIsEmailCopied(true);
     setTimeout(() => {
       setIsEmailCopied(false);
@@ -33,15 +28,21 @@ function Home() {
             src={"/rajath-rao/images/grad_photo.jpg"}
           />
           <p className="profile-text">
-            I am a{" "}
+            I am an{" "}
             <span className="emphasize emphasize1">
-              Computer + Data Scientist
+              AI / Machine Learning Engineer
             </span>{" "}
-            currently working as a graduate researcher at Stony Brook
-            University.
+            currently working at{" "}
+            <a
+              href="https://sima.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="emphasize emphasize1">SiMa.ai</span>
+            </a>
           </p>
           <div className="contacts">
-            <a href="mailto:rajath-rao1001@gmail.com">
+            <a href="mailto:rajathrao1001@gmail.com">
               <div className="contact-comp">
                 <MdEmail style={{ fontSize: "2rem" }} />
               </div>
@@ -69,6 +70,12 @@ function Home() {
                 <FaGithub style={{ fontSize: "2rem" }} />
               </div>
             </a>
+          </div>
+          <div className="email-comp">
+            <span className="emphasize"> rajathrao1001[AT]gmail[DOT]com</span>{" "}
+            <button className="copy-button" onClick={copyEmail}>
+              {isEmailCopied ? <FaCheck /> : <MdCopyAll />}
+            </button>{" "}
           </div>
           <div
             className="resume-link"
@@ -115,15 +122,8 @@ function Home() {
           I am constantly trying out new ideas💡and hunting problems to solve.
           When I am not coding or reading, some of my other interests include
           playing basketball🏀, working out💪, making music🎹, and some casual
-          gaming🎮. Please do not hesitate to contact me at
-          <span className="emphasize">
-            {" "}
-            rajath.rao[AT]stonybrook[DOT]edu
-          </span>{" "}
-          <button className="copy-button" onClick={copyEmail}>
-            {isEmailCopied ? <FaCheck /> : <MdCopyAll />}
-          </button>{" "}
-          if you are looking to collaborate or ask any questions.
+          gaming🎮. Please do not hesitate to contact me at if you are looking
+          to collaborate or ask any questions.
         </p>
       </div>
     </div>

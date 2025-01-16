@@ -45,6 +45,24 @@ function Experience() {
           <div className="exp-content">
             <p className="exp-text1">
               <span className="emphasize emphasize2">
+                AI / Machine Learning Engineer
+              </span>
+            </p>
+            <p className="exp-text1 exp-text3">
+              SiMa AI ·
+              <span className="exp-text2"> January 2025 - Present</span>
+              <p className="exp-text1" style={{ marginTop: "1rem" }}>
+                Developing and deploying models for inference on edge devices.
+                Collaborating with cross-functional teams to integrate AI
+                solutions into a system on chip (SoC). Optimizing architectures
+                using quantization, graph surgery, and mixed precision
+                techniques for high performance and accuracy.
+              </p>
+            </p>
+          </div>
+          <div className="exp-content">
+            <p className="exp-text1">
+              <span className="emphasize emphasize2">
                 Graduate Student Researcher
               </span>
             </p>
