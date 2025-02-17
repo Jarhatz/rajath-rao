@@ -119,8 +119,8 @@ function Home() {
           />
         </p>
         <p className="home-text">
-          I love researching and developing deep learning frameworks in the
-          realm of <span className="emphasize">Representation Learning</span>,{" "}
+          I love researching and developing projects in the realm of{" "}
+          <span className="emphasize">Representation Learning</span>,{" "}
           <span className="emphasize">Brain Computer Interfaces</span>, and{" "}
           <span className="emphasize">Multimodal Reinforcement Learning</span>.
           My passion for Computer Science and AI/ML 🤖 stems from my personal
