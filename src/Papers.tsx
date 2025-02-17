@@ -8,12 +8,11 @@ function Papers() {
       </div>
       <div className="papers-stack">
         <span className="paper-text1">
-          <span className="emphasize">[1]</span> Rao, R., Ganesan, A., Ryant,
-          N., Kjell, O., Schwartz, H., Kotov, R., Raghavan, A, Luby, J., Luft,
-          B., Kjell, O., Ringwald, W., Ruggero, C., Boyd, R., & Feltman, S.
-          (2025). WhiSPA: Semantically and Psychologically Aligned Whisper with
-          Self-Supervised Contrastive and Student-Teacher Learning. Under Review
-          at ACL 2025.{" "}
+          <span className="emphasize">[1]</span> Rao, R., Ganesan, A., Kjell,
+          O., Luby, J., Raghavan, A., Feltman, S., Ringwald, W., Boyd R., Luft,
+          B., Ruggero, C., Ryant, N., Kotov, R., & Schwartz, H. (2025). WhiSPA:
+          Semantically and Psychologically Aligned Whisper with Self-Supervised
+          Contrastive and Student-Teacher Learning. Under Review at ACL 2025.{" "}
           <a
             href="https://arxiv.org/abs/2501.16344"
             target="_blank"
