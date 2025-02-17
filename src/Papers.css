@@ -22,7 +22,7 @@
 .papers-stack {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     margin: 0.5rem 0 2rem 0;
 }
 

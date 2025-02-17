@@ -13,9 +13,9 @@ function Papers() {
           B., Kjell, O., Ringwald, W., Ruggero, C., Boyd, R., & Feltman, S.
           (2025). WhiSPA: Semantically and Psychologically Aligned Whisper with
           Self-Supervised Contrastive and Student-Teacher Learning. Under Review
-          at ACL ARR 2024.{" "}
+          at ACL 2025.{" "}
           <a
-            href="https://google.com"
+            href="https://arxiv.org/abs/2501.16344"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +38,7 @@ function Papers() {
           Computational Linguistics and Clinical Psychology (CLPsych 2024) (pp.
           278–291). Published at ACL 2024.{" "}
           <a
-            href="https://aclanthology.org/2024.clpsych-1.28.pdf"
+            href="https://aclanthology.org/2024.clpsych-1.28/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { MdOutlineOpenInNew, MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaCheck, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGoogleScholar } from "react-icons/fa6";
 import { MdCopyAll } from "react-icons/md";
 
 function Home() {
@@ -70,6 +71,15 @@ function Home() {
                 <FaGithub style={{ fontSize: "2rem" }} />
               </div>
             </a>
+            <a
+              href="https://scholar.google.com/citations?hl=en&user=zhO5WMAAAAAJ"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="contact-comp">
+                <FaGoogleScholar style={{ fontSize: "2rem" }} />
+              </div>
+            </a>
           </div>
           <div className="email-comp">
             <span className="emphasize"> rajathrao1001[AT]gmail[DOT]com</span>{" "}
@@ -110,20 +120,19 @@ function Home() {
         </p>
         <p className="home-text">
           I love researching and developing deep learning frameworks in the
-          realm of{" "}
-          <span className="emphasize">Multimodal Foundation Models</span>,{" "}
+          realm of <span className="emphasize">Representation Learning</span>,{" "}
           <span className="emphasize">Brain Computer Interfaces</span>, and{" "}
-          <span className="emphasize">Reinforcement Learning</span>. My passion
-          for Computer Science and AI/ML 🤖 stems from my personal quality of
-          being a lifelong learner. The inner-child in me wants to make the
-          sci-fi movies 🍿 I watched growing up a reality...
+          <span className="emphasize">Multimodal Reinforcement Learning</span>.
+          My passion for Computer Science and AI/ML 🤖 stems from my personal
+          quality of being a lifelong learner. The inner-child in me wants to
+          make the sci-fi movies 🍿 I watched growing up a reality...
         </p>
         <p className="home-text">
           I am constantly trying out new ideas💡and hunting problems to solve.
           When I am not coding or reading, some of my other interests include
           playing basketball🏀, working out💪, making music🎹, and some casual
           gaming🎮. Please do not hesitate to contact me at if you are looking
-          to collaborate or ask any questions.
+          to collaborate or simply just asking questions.
         </p>
       </div>
     </div>
