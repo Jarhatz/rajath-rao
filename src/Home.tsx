@@ -131,8 +131,8 @@ function Home() {
           I am constantly trying out new ideas💡and hunting problems to solve.
           When I am not coding or reading, some of my other interests include
           playing basketball🏀, working out💪, making music🎹, and some casual
-          gaming🎮. Please do not hesitate to contact me at if you are looking
-          to collaborate or simply just asking questions.
+          gaming🎮. Please do not hesitate to contact me if you are looking
+          to collaborate or simply asking questions.
         </p>
       </div>
     </div>
