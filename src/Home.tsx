@@ -31,15 +31,15 @@ function Home() {
           <p className="profile-text">
             I am an{" "}
             <span className="emphasize emphasize1">
-              AI / Machine Learning Engineer
+              AI Research Engineer (Speech Models)
             </span>{" "}
             currently working at{" "}
             <a
-              href="https://sima.ai/"
+              href="https://inflection.ai/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="emphasize emphasize1">SiMa.ai</span>
+              <span className="emphasize emphasize1">Inflection AI</span>
             </a>
           </p>
           <div className="contacts">
