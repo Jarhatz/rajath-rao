@@ -14,7 +14,7 @@ function Papers() {
           Semantically and Psychologically Aligned Whisper with Self-Supervised
           Contrastive and Student-Teacher Learning. Under Review at ACL 2025.{" "}
           <a
-            href="https://arxiv.org/abs/2501.16344"
+            href="https://aclanthology.org/2025.acl-long.1098/"
             target="_blank"
             rel="noopener noreferrer"
           >
