@@ -12,7 +12,7 @@ function Papers() {
           O., Luby, J., Raghavan, A., Feltman, S., Ringwald, W., Boyd R., Luft,
           B., Ruggero, C., Ryant, N., Kotov, R., & Schwartz, H. (2025). WhiSPA:
           Semantically and Psychologically Aligned Whisper with Self-Supervised
-          Contrastive and Student-Teacher Learning. Under Review at ACL 2025.{" "}
+          Contrastive and Student-Teacher Learning. Published at ACL 2025.{" "}
           <a
             href="https://aclanthology.org/2025.acl-long.1098/"
             target="_blank"
