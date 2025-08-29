@@ -12,7 +12,10 @@ function Papers() {
           O., Luby, J., Raghavan, A., Feltman, S., Ringwald, W., Boyd R., Luft,
           B., Ruggero, C., Ryant, N., Kotov, R., & Schwartz, H. (2025). WhiSPA:
           Semantically and Psychologically Aligned Whisper with Self-Supervised
-          Contrastive and Student-Teacher Learning. Published at ACL 2025.{" "}
+          Contrastive and Student-Teacher Learning. In Proceedings of the 63rd
+          Annual Meeting of the Association for Computational Linguistics
+          (Volume 1: Long Papers), pages 22529–22544, Vienna, Austria. ACL
+          2025.{" "}
           <a
             href="https://aclanthology.org/2025.acl-long.1098/"
             target="_blank"
@@ -29,13 +32,26 @@ function Papers() {
           </a>
         </span>
         <span className="paper-text1">
-          <span className="emphasize">[2]</span> Varadarajan, V., Lahnala, A.,
+          <span className="emphasize">[2]</span> Gu, Z., Rao, R., Nillson, A.,
+          Eijsbroek, V., Kjell, O. (2025). Probed Language-Based Assessments
+          Using Spoken Language. IEEE International Professional Communication
+          Conference (ProComm) 2025.{" "}
+          <a
+            href="https://ieeexplore.ieee.org/abstract/document/11114967"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="emphasize">[Paper]</span>
+          </a>
+        </span>
+        <span className="paper-text1">
+          <span className="emphasize">[3]</span> Varadarajan, V., Lahnala, A.,
           Ganesan, A., Dey, G., Mangalik, S., Bucur, A.M., Soni, N., Rao, R.,
           Lanning, K., Vallejo, I., Flek, L., Schwartz, H., Welch, C., & Boyd,
           R. (2024). Archetypes and Entropy: Theory-Driven Extraction of
           Evidence for Suicide Risk. In Proceedings of the 9th Workshop on
           Computational Linguistics and Clinical Psychology (CLPsych 2024) (pp.
-          278–291). Published at ACL 2024.{" "}
+          278–291). ACL 2024.{" "}
           <a
             href="https://aclanthology.org/2024.clpsych-1.28/"
             target="_blank"
@@ -45,7 +61,7 @@ function Papers() {
           </a>
         </span>
         <span className="paper-text1">
-          <span className="emphasize">[3]</span> Rao, R., Zhou, L., Samaras, D.
+          <span className="emphasize">[4]</span> Rao, R., Zhou, L., Samaras, D.
           (2024). BrainDiffusion: Reconstructing Visual Semantics from
           Non-Invasive Neural Activity Readings. Unpublished.{" "}
           <span
