@@ -31,7 +31,7 @@ function Home() {
           <p className="profile-text">
             I am an{" "}
             <span className="emphasize emphasize1">
-              AI Research Engineer (Speech Models)
+              AI Research Scientist
             </span>{" "}
             currently working at{" "}
             <a
@@ -82,7 +82,7 @@ function Home() {
             </a>
           </div>
           <div className="email-comp">
-            <span className="emphasize"> rajathrao1001[AT]gmail[DOT]com</span>{" "}
+            <span className="emphasize"> rajathrao1001 [AT] gmail [DOT] com</span>{" "}
             <button className="copy-button" onClick={copyEmail}>
               {isEmailCopied ? <FaCheck /> : <MdCopyAll />}
             </button>{" "}
